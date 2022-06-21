@@ -1,10 +1,15 @@
+import React  from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 import Banner from "./Banner";
+import ShoppingList from "./ShoppingList";
 
 function App() {
   return (
-    <Banner />
+      <div>
+        <Banner />
+        <ShoppingList />
+      </div>
   );
 }
 

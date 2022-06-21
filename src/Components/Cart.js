@@ -1,9 +1,13 @@
+
+import React  from 'react';
+import '../styles/Cart.css'
+
 function Cart() {
     let lierre = 10
     let monstera = 8
     let fleur = 15
     return (
-        <div>
+        <div className='lmj-cart'>
             <h2>Panier</h2>
             <ul>
                 <li>Monstera : { monstera }€</li>
